@@ -4,6 +4,7 @@
  */
 package View;
 
+import Model.Cliente;
 import javax.swing.table.DefaultTableModel;
 
 /**
@@ -227,7 +228,21 @@ public class JF_cadastroVeiculos extends javax.swing.JFrame {
        
         Object[] linhas = {txt_Nome.getText(), txt_cpf.getText(), txt_telefone.getText() , id_cliente,txt_model.getText(), txt_placa.getText(), txt_cor.getText(),id_carro, txt_horario.getText()};
         
+        
         MdlTableCli.addRow(linhas);
+        
+        Cliente cadastro = new Cliente();
+        
+        cadastro.setNome(txt_Nome.getText());
+        cadastro.setCpf(txt_cpf.getText());
+        cadastro.setTelefone(txt_telefone.getText());
+        cadastro.setId_Cliente(id_cliente);
+        cadastro.setModelo(txt_model.getText());
+        cadastro.setPlaca(txt_placa.getText());
+        cadastro.setCor(txt_cor.getText());
+        cadastro.setId_Carro(id_carro);
+        cadastro.setHorario(txt_horario.getText());
+        
     }//GEN-LAST:event_jButton1MouseClicked
 
     /**

@@ -3,6 +3,7 @@ View\JF_Login$3.class
 com\mycompany\jframe_loginestacionamento\JFrame_LoginEstacionamento.class
 View\JF_Login$5.class
 View\JF_Login.class
+Model\Cliente.class
 View\JF_Primeiro_acesso$2.class
 View\JF_cadastroVeiculos$1.class
 View\JF_Login$4.class
